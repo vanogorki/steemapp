@@ -32,3 +32,32 @@
     margin: 0;
     font-size: 1.25rem;
 }
+
+.menu__container ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.sidebar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar li a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar li a:hover {
+    background-color: #2a2a2a;
+}
